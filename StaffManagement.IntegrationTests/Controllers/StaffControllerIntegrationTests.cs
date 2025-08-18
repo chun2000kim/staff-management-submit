@@ -32,8 +32,8 @@ namespace StaffManagement.IntegrationTests.Controllers
         {
             var staff = new
             {
-                StaffId = "SF0011",
-                FullName = "Staff 11",
+                StaffId = "SF0007",
+                FullName = "Staff 7",
                 Gender = 2,
                 Birthday = DateOnly.Parse("1999-01-01")
             };
@@ -46,7 +46,7 @@ namespace StaffManagement.IntegrationTests.Controllers
             Assert.NotNull(result);
             Assert.Equal(200, result!.Code);
             Assert.Equal("Success", result.Status);
-            Assert.Equal("Staff 11", result.Data!.FullName);
+            Assert.Equal("Staff 7", result.Data!.FullName);
         }
     }
 }
