@@ -1,0 +1,11 @@
+# Visual Studio / Rider / IDE files
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.dbmdl
+
+# Build outputs
+bin/
+obj/
