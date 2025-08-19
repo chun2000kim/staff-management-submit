@@ -5,13 +5,13 @@ using System.Net.Http.Json;
 
 namespace StaffManagement.IntegrationTests.Controllers
 {
-    public class StaffControllerIntegrationTests:IClassFixture<WebApplicationFactory<Program>>
+    public class StaffControllerIntegrationTests : IClassFixture<WebApplicationFactory<Program>>
     {
         private readonly HttpClient _client;
 
         public StaffControllerIntegrationTests(WebApplicationFactory<Program> factory)
         {
-            _client = factory.CreateClient();    
+            _client = factory.CreateClient();
         }
 
         [Fact]

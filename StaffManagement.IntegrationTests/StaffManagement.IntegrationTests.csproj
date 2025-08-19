@@ -16,11 +16,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StaffManagement.API\StaffManagement.API\StaffManagement.API.csproj" />
+    <Using Include="Xunit" />
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Xunit" />
+    <ProjectReference Include="..\StaffManagement.API\StaffManagement.API\StaffManagement.API.csproj" />
   </ItemGroup>
 
 </Project>
